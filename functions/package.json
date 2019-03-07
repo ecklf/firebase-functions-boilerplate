@@ -1,0 +1,35 @@
+{
+  "name": "functions",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "dev": "concurrently --kill-others \"tsc -w\" \"firebase serve --only functions\"",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "tsc",
+    "serve": "npm run build && firebase serve --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@types/config": "0.0.34",
+    "config": "^3.0.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0",
+    "firebase-functions-test": "^0.1.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "concurrently": "^4.1.0",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "private": true
+}

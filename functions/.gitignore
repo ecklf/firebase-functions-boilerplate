@@ -1,0 +1,14 @@
+## Compiled JavaScript files
+**/*.js
+**/*.js.map
+.DS_Store
+
+# Typescript v1 declaration files
+typings/
+node_modules/
+
+# Allow jest config as exception
+!jest.config.js
+
+# Important: Don't share your service-account!
+service-account.json
