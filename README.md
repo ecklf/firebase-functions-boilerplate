@@ -55,14 +55,15 @@ $ npm test
 
 ## Config
 
-### Node.js v8
+### Node.js v10
 
-Currently in beta. If you experience issues feel free to remove from `package.json`
+Currently in beta. If you want to try it out you will need to  enable it in your `package.json`
 
 ```diff
--  "engines": {
--    "node": "8"
--  },
+   "engines": {
+-     "node": "8"
++     "node": "10"
+   },
 ```
 
 ## Useful links
