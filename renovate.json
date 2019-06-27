@@ -1,7 +1,0 @@
-{
-  "extends": [
-    "config:base"
-    "assignees": ["impulse"],
-    "bumpVersion": "patch"
-  ]
-}
