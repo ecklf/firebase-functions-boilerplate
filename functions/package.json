@@ -15,18 +15,18 @@
   "main": "lib/index.js",
   "dependencies": {
     "@types/config": "0.0.34",
-    "config": "^3.0.1",
-    "firebase-admin": "~7.0.0",
-    "firebase-functions": "^2.2.0",
-    "firebase-functions-test": "^0.1.6"
+    "config": "3.0.1",
+    "firebase-admin": "7.0.0",
+    "firebase-functions": "2.2.0",
+    "firebase-functions-test": "0.1.6"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.9",
-    "concurrently": "^4.1.0",
-    "jest": "^24.1.0",
-    "ts-jest": "^24.0.0",
-    "tslint": "^5.12.0",
-    "typescript": "^3.2.2"
+    "@types/jest": "24.0.9",
+    "concurrently": "4.1.0",
+    "jest": "24.1.0",
+    "ts-jest": "24.0.0",
+    "tslint": "5.13.1",
+    "typescript": "3.3.3333"
   },
   "engines": {
     "node": "8"
