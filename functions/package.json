@@ -15,7 +15,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "@types/config": "0.0.34",
-    "config": "3.2.2",
+    "config": "3.2.3",
     "firebase-admin": "8.6.0",
     "firebase-functions": "3.2.0",
     "firebase-functions-test": "0.1.6"
