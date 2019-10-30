@@ -21,7 +21,7 @@
     "firebase-functions-test": "0.1.6"
   },
   "devDependencies": {
-    "@types/jest": "24.0.20",
+    "@types/jest": "24.0.21",
     "concurrently": "5.0.0",
     "jest": "24.9.0",
     "ts-jest": "24.1.0",
