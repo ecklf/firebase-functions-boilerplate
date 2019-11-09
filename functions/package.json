@@ -25,7 +25,7 @@
     "concurrently": "5.0.0",
     "jest": "24.9.0",
     "ts-jest": "24.1.0",
-    "tslint": "5.20.0",
+    "tslint": "5.20.1",
     "typescript": "3.6.4"
   },
   "engines": {
