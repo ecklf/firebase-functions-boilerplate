@@ -18,7 +18,7 @@ $ nvm use # will read .nvmrc (default: v8)
 $ yarn
 ```
 
-add your firebase project
+Add your firebase project
 
 ```sh
 $ firebase use --add
