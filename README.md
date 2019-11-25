@@ -10,10 +10,12 @@ Requires **firebase-tools**:
 $ npm i -g firebase-tools
 ```
 
-Install all dependencies:
+Install all dependencies (node version should match package.json engines):
 
 ```sh
-$ npm install
+$ cd functions
+$ nvm use # will read .nvmrc (default: v8)
+$ yarn
 ```
 
 add your firebase project
@@ -44,26 +46,33 @@ Fill in your API details in `config/*.json`
 Development: `firebase serve` with hot-reloading
 
 ```sh
-$ npm run dev
+$ yarn dev
 ```
 
 Testing: jest
 
 ```sh
-$ npm test
+$ yarn test
 ```
 
 ## Config
 
 ### Node.js v10
 
-Currently in beta. If you want to try it out you will need to  enable it in your `package.json`
+Currently in beta. If you want to try it out you will need to enable it in your `package.json`
 
 ```diff
    "engines": {
 -     "node": "8"
 +     "node": "10"
    },
+```
+
+Also modify your `.nvmrc` if you use nvm / fnm / fish-nvm
+
+```diff
+-  v8
++  v10
 ```
 
 ## Useful links
